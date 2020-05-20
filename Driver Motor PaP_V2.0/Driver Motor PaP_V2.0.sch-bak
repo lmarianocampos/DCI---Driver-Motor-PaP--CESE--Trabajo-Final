@@ -20,7 +20,7 @@ U 1 1 5EC1CF42
 P 9550 5300
 F 0 "H1" H 9650 5346 50  0000 L CNN
 F 1 "MountingHole" H 9650 5255 50  0000 L CNN
-F 2 "" H 9550 5300 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4mm_Pad_Via" H 9550 5300 50  0001 C CNN
 F 3 "~" H 9550 5300 50  0001 C CNN
 	1    9550 5300
 	1    0    0    -1  
@@ -31,7 +31,7 @@ U 1 1 5EC1D2D4
 P 10350 5300
 F 0 "H3" H 10450 5346 50  0000 L CNN
 F 1 "MountingHole" H 10450 5255 50  0000 L CNN
-F 2 "" H 10350 5300 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4mm_Pad_Via" H 10350 5300 50  0001 C CNN
 F 3 "~" H 10350 5300 50  0001 C CNN
 	1    10350 5300
 	1    0    0    -1  
@@ -42,7 +42,7 @@ U 1 1 5EC1D6E2
 P 9550 5650
 F 0 "H2" H 9650 5696 50  0000 L CNN
 F 1 "MountingHole" H 9650 5605 50  0000 L CNN
-F 2 "" H 9550 5650 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4mm_Pad_Via" H 9550 5650 50  0001 C CNN
 F 3 "~" H 9550 5650 50  0001 C CNN
 	1    9550 5650
 	1    0    0    -1  
@@ -53,7 +53,7 @@ U 1 1 5EC1DF27
 P 10350 5650
 F 0 "H4" H 10450 5696 50  0000 L CNN
 F 1 "MountingHole" H 10450 5605 50  0000 L CNN
-F 2 "" H 10350 5650 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4mm_Pad_Via" H 10350 5650 50  0001 C CNN
 F 3 "~" H 10350 5650 50  0001 C CNN
 	1    10350 5650
 	1    0    0    -1  
@@ -75,7 +75,7 @@ U 1 1 5EC3F23C
 P 1400 1350
 F 0 "J1" H 1300 1050 50  0000 C CNN
 F 1 "Conn_01x02" H 1318 1116 50  0000 C CNN
-F 2 "" H 1400 1350 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 1400 1350 50  0001 C CNN
 F 3 "~" H 1400 1350 50  0001 C CNN
 	1    1400 1350
 	-1   0    0    1   
@@ -86,7 +86,7 @@ U 1 1 5EC4279A
 P 7950 2450
 F 0 "C4" H 8065 2496 50  0000 L CNN
 F 1 "100nF" H 8065 2405 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 7950 2450 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm" H 7950 2450 50  0001 C CNN
 F 3 "~" H 7950 2450 50  0001 C CNN
 	1    7950 2450
 	1    0    0    -1  
@@ -154,7 +154,7 @@ U 1 1 5EC9763E
 P 1400 2800
 F 0 "J2" H 1318 2475 50  0000 C CNN
 F 1 "Conn_01x02" H 1318 2566 50  0000 C CNN
-F 2 "" H 1400 2800 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 1400 2800 50  0001 C CNN
 F 3 "~" H 1400 2800 50  0001 C CNN
 	1    1400 2800
 	-1   0    0    1   
@@ -229,7 +229,7 @@ U 1 1 5EC341B0
 P 5850 1150
 F 0 "R3" H 5920 1196 50  0000 L CNN
 F 1 "470" H 5920 1105 50  0000 L CNN
-F 2 "" V 5780 1150 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5780 1150 50  0001 C CNN
 F 3 "~" H 5850 1150 50  0001 C CNN
 	1    5850 1150
 	1    0    0    -1  
@@ -262,7 +262,7 @@ U 1 1 5EC3799C
 P 5250 1650
 F 0 "R2" V 5043 1650 50  0000 C CNN
 F 1 "33k" V 5134 1650 50  0000 C CNN
-F 2 "" V 5180 1650 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5180 1650 50  0001 C CNN
 F 3 "~" H 5250 1650 50  0001 C CNN
 	1    5250 1650
 	0    1    1    0   
@@ -285,7 +285,7 @@ U 1 1 5EC85FA4
 P 8400 3000
 F 0 "J6" H 8480 2992 50  0000 L CNN
 F 1 "Conn_01x02" H 8480 2901 50  0000 L CNN
-F 2 "" H 8400 3000 50  0001 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 8400 3000 50  0001 C CNN
 F 3 "~" H 8400 3000 50  0001 C CNN
 	1    8400 3000
 	1    0    0    -1  
@@ -293,29 +293,25 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J7
 U 1 1 5EC87FD1
-P 8400 3300
-F 0 "J7" H 8480 3292 50  0000 L CNN
-F 1 "Conn_01x02" H 8480 3201 50  0000 L CNN
-F 2 "" H 8400 3300 50  0001 C CNN
-F 3 "~" H 8400 3300 50  0001 C CNN
-	1    8400 3300
-	1    0    0    -1  
+P 8400 3400
+F 0 "J7" H 8480 3392 50  0000 L CNN
+F 1 "Conn_01x02" H 8480 3301 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 8400 3400 50  0001 C CNN
+F 3 "~" H 8400 3400 50  0001 C CNN
+	1    8400 3400
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	7550 3000 8200 3000
 Wire Wire Line
 	7550 3100 8200 3100
-Wire Wire Line
-	7550 3300 8200 3300
-Wire Wire Line
-	7550 3400 8200 3400
 $Comp
 L Amplifier_Operational:LM358 U1
 U 1 1 5ED2BEE6
 P 5450 3200
 F 0 "U1" H 5450 3567 50  0000 C CNN
 F 1 "LM358" H 5450 3476 50  0000 C CNN
-F 2 "" H 5450 3200 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 5450 3200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5450 3200 50  0001 C CNN
 	1    5450 3200
 	1    0    0    -1  
@@ -326,7 +322,7 @@ U 2 1 5ED31852
 P 5450 4000
 F 0 "U1" H 5450 4367 50  0000 C CNN
 F 1 "LM358" H 5450 4276 50  0000 C CNN
-F 2 "" H 5450 4000 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 5450 4000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5450 4000 50  0001 C CNN
 	2    5450 4000
 	1    0    0    -1  
@@ -337,7 +333,7 @@ U 3 1 5ED338FD
 P 1150 5250
 F 0 "U1" H 1108 5296 50  0000 L CNN
 F 1 "LM358" H 1108 5205 50  0000 L CNN
-F 2 "" H 1150 5250 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 1150 5250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 1150 5250 50  0001 C CNN
 	3    1150 5250
 	1    0    0    -1  
@@ -348,7 +344,7 @@ U 1 1 5ED373A0
 P 5450 4800
 F 0 "U2" H 5450 5167 50  0000 C CNN
 F 1 "LM358" H 5450 5076 50  0000 C CNN
-F 2 "" H 5450 4800 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 5450 4800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5450 4800 50  0001 C CNN
 	1    5450 4800
 	1    0    0    -1  
@@ -359,7 +355,7 @@ U 2 1 5ED39A77
 P 5450 5600
 F 0 "U2" H 5450 5967 50  0000 C CNN
 F 1 "LM358" H 5450 5876 50  0000 C CNN
-F 2 "" H 5450 5600 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 5450 5600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5450 5600 50  0001 C CNN
 	2    5450 5600
 	1    0    0    -1  
@@ -370,7 +366,7 @@ U 3 1 5ED3DE28
 P 2050 5250
 F 0 "U2" H 2008 5296 50  0000 L CNN
 F 1 "LM358" H 2008 5205 50  0000 L CNN
-F 2 "" H 2050 5250 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 2050 5250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2050 5250 50  0001 C CNN
 	3    2050 5250
 	1    0    0    -1  
@@ -381,7 +377,7 @@ U 1 1 5ED40395
 P 5450 6400
 F 0 "U3" H 5450 6767 50  0000 C CNN
 F 1 "LM358" H 5450 6676 50  0000 C CNN
-F 2 "" H 5450 6400 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 5450 6400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5450 6400 50  0001 C CNN
 	1    5450 6400
 	1    0    0    -1  
@@ -392,7 +388,7 @@ U 2 1 5ED4238B
 P 5450 7200
 F 0 "U3" H 5450 7567 50  0000 C CNN
 F 1 "LM358" H 5450 7476 50  0000 C CNN
-F 2 "" H 5450 7200 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 5450 7200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5450 7200 50  0001 C CNN
 	2    5450 7200
 	1    0    0    -1  
@@ -403,7 +399,7 @@ U 3 1 5ED43FAE
 P 2950 5250
 F 0 "U3" H 2908 5296 50  0000 L CNN
 F 1 "LM358" H 2908 5205 50  0000 L CNN
-F 2 "" H 2950 5250 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 2950 5250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2950 5250 50  0001 C CNN
 	3    2950 5250
 	1    0    0    -1  
@@ -491,12 +487,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 5600 5750 5600
 Wire Wire Line
-	5900 5600 6500 5600
-Wire Wire Line
-	6500 5600 6500 3600
-Wire Wire Line
 	6500 3600 6750 3600
-Connection ~ 5900 5600
 Wire Wire Line
 	5150 6500 5150 6750
 Wire Wire Line
@@ -506,11 +497,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 6400 5750 6400
 Wire Wire Line
-	5900 6400 6700 6400
-Wire Wire Line
 	6700 3700 6750 3700
-Wire Wire Line
-	6700 3700 6700 6400
 Connection ~ 5900 6400
 Wire Wire Line
 	2450 5100 2450 4950
@@ -557,7 +544,7 @@ U 1 1 5EEC057D
 P 4450 6300
 F 0 "J4" H 4368 5875 50  0000 C CNN
 F 1 "Conn_01x04" H 4368 5966 50  0000 C CNN
-F 2 "" H 4450 6300 50  0001 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 4450 6300 50  0001 C CNN
 F 3 "~" H 4450 6300 50  0001 C CNN
 	1    4450 6300
 	-1   0    0    1   
@@ -596,7 +583,7 @@ U 1 1 5EF35590
 P 6300 7200
 F 0 "J5" H 6380 7242 50  0000 L CNN
 F 1 "Conn_01x01" H 6380 7151 50  0000 L CNN
-F 2 "" H 6300 7200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6300 7200 50  0001 C CNN
 F 3 "~" H 6300 7200 50  0001 C CNN
 	1    6300 7200
 	1    0    0    -1  
@@ -627,7 +614,7 @@ U 1 1 5EF7AC23
 P 4200 2550
 F 0 "J3" H 4118 2125 50  0000 C CNN
 F 1 "Conn_01x04" H 4118 2216 50  0000 C CNN
-F 2 "" H 4200 2550 50  0001 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 4200 2550 50  0001 C CNN
 F 3 "~" H 4200 2550 50  0001 C CNN
 	1    4200 2550
 	-1   0    0    1   
@@ -733,7 +720,7 @@ U 1 1 5F036CF9
 P 1250 4100
 F 0 "R1" H 1320 4146 50  0000 L CNN
 F 1 "220" H 1320 4055 50  0000 L CNN
-F 2 "" V 1180 4100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1180 4100 50  0001 C CNN
 F 3 "~" H 1250 4100 50  0001 C CNN
 	1    1250 4100
 	1    0    0    -1  
@@ -790,17 +777,6 @@ F 3 "" H 6500 2750 50  0001 C CNN
 	1    6500 2750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Driver_Motor:Pololu_Breakout_DRV8825 A1
-U 1 1 5EBF76D3
-P 7150 3100
-F 0 "A1" H 7150 3881 50  0000 C CNN
-F 1 "Pololu_Breakout_DRV8825" H 7150 3790 50  0000 C CNN
-F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 7350 2300 50  0001 L CNN
-F 3 "https://www.pololu.com/product/2982" H 7250 2800 50  0001 C CNN
-	1    7150 3100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5850 1300 5850 1400
 Wire Wire Line
@@ -853,11 +829,197 @@ Wire Wire Line
 	1550 4750 1550 4950
 Wire Wire Line
 	1550 5750 1550 5550
-NoConn ~ 6750 2700
 Wire Notes Line
 	8400 2950 8600 2650
 Wire Notes Line
 	8600 2650 9700 2650
 Text Notes 8600 2650 0    50   ~ 0
 Conexión al motor bipolar de 4 hilos\n
+$Comp
+L Connector_Generic:Conn_01x01 J8
+U 1 1 5EC4C95F
+P 6900 2050
+F 0 "J8" H 6980 2092 50  0000 L CNN
+F 1 "Conn_01x01" H 6980 2001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6900 2050 50  0001 C CNN
+F 3 "~" H 6900 2050 50  0001 C CNN
+	1    6900 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_Motor:Pololu_Breakout_DRV8825 A1
+U 1 1 5EBF76D3
+P 7150 3100
+F 0 "A1" H 7150 3881 50  0000 C CNN
+F 1 "Pololu_Breakout_DRV8825" H 7150 3790 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 7350 2300 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2982" H 7250 2800 50  0001 C CNN
+	1    7150 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2700 6750 2500
+Wire Wire Line
+	6750 2500 6550 2500
+Wire Wire Line
+	6550 2500 6550 2050
+Wire Wire Line
+	6550 2050 6700 2050
+$Comp
+L Jumper:Jumper_2_Open JP1
+U 1 1 5EC62C1D
+P 6950 5150
+F 0 "JP1" H 6950 5385 50  0000 C CNN
+F 1 "Jumper_2_Open" H 6950 5294 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6950 5150 50  0001 C CNN
+F 3 "~" H 6950 5150 50  0001 C CNN
+	1    6950 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP2
+U 1 1 5EC6762C
+P 6950 5550
+F 0 "JP2" H 6850 5800 50  0000 C CNN
+F 1 "Jumper_2_Open" H 6800 5700 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6950 5550 50  0001 C CNN
+F 3 "~" H 6950 5550 50  0001 C CNN
+	1    6950 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP3
+U 1 1 5EC694C0
+P 6950 5950
+F 0 "JP3" H 6850 6200 50  0000 C CNN
+F 1 "Jumper_2_Open" H 6850 6100 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6950 5950 50  0001 C CNN
+F 3 "~" H 6950 5950 50  0001 C CNN
+	1    6950 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP4
+U 1 1 5EC76B83
+P 8150 5150
+F 0 "JP4" H 8200 5400 50  0000 C CNN
+F 1 "Jumper_2_Open" H 8250 5300 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8150 5150 50  0001 C CNN
+F 3 "~" H 8150 5150 50  0001 C CNN
+	1    8150 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP5
+U 1 1 5EC79768
+P 8150 5550
+F 0 "JP5" H 8250 5800 50  0000 C CNN
+F 1 "Jumper_2_Open" H 8300 5700 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8150 5550 50  0001 C CNN
+F 3 "~" H 8150 5550 50  0001 C CNN
+	1    8150 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP6
+U 1 1 5EC7A59D
+P 8150 5950
+F 0 "JP6" H 8300 6200 50  0000 C CNN
+F 1 "Jumper_2_Open" H 8300 6100 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8150 5950 50  0001 C CNN
+F 3 "~" H 8150 5950 50  0001 C CNN
+	1    8150 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0102
+U 1 1 5EC93ACD
+P 6500 5150
+F 0 "#PWR0102" H 6500 5000 50  0001 C CNN
+F 1 "VCC" H 6517 5323 50  0000 C CNN
+F 2 "" H 6500 5150 50  0001 C CNN
+F 3 "" H 6500 5150 50  0001 C CNN
+	1    6500 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0105
+U 1 1 5EC96277
+P 8800 5150
+F 0 "#PWR0105" H 8800 5000 50  0001 C CNN
+F 1 "VCC" H 8817 5323 50  0000 C CNN
+F 2 "" H 8800 5150 50  0001 C CNN
+F 3 "" H 8800 5150 50  0001 C CNN
+	1    8800 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5EC98032
+P 8800 5550
+F 0 "#PWR0106" H 8800 5300 50  0001 C CNN
+F 1 "GND" H 8805 5377 50  0000 C CNN
+F 2 "" H 8800 5550 50  0001 C CNN
+F 3 "" H 8800 5550 50  0001 C CNN
+	1    8800 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 5150 8800 5150
+Wire Wire Line
+	8350 5550 8800 5550
+Wire Wire Line
+	7950 5550 7950 5950
+Connection ~ 7950 5550
+$Comp
+L power:GND #PWR0107
+U 1 1 5EC9701C
+P 6450 5950
+F 0 "#PWR0107" H 6450 5700 50  0001 C CNN
+F 1 "GND" H 6455 5777 50  0000 C CNN
+F 2 "" H 6450 5950 50  0001 C CNN
+F 3 "" H 6450 5950 50  0001 C CNN
+	1    6450 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 5150 6750 5150
+Wire Wire Line
+	6450 5950 6750 5950
+Wire Wire Line
+	7150 5150 7150 5550
+Wire Wire Line
+	7150 5950 7150 5550
+Connection ~ 7150 5550
+Wire Wire Line
+	5900 5600 6750 5600
+Wire Wire Line
+	6750 5600 6750 5550
+Connection ~ 5900 5600
+Wire Wire Line
+	8350 6400 8350 5950
+Wire Wire Line
+	5900 6400 8350 6400
+Wire Wire Line
+	6500 3600 6500 4500
+Wire Wire Line
+	7250 4500 7250 5550
+Wire Wire Line
+	7250 5550 7150 5550
+Wire Wire Line
+	6500 4500 7250 4500
+Wire Wire Line
+	6700 3700 6700 4400
+Wire Wire Line
+	7800 5550 7950 5550
+Wire Wire Line
+	6700 4400 7800 4400
+Wire Wire Line
+	7800 4400 7800 5550
+Wire Wire Line
+	7950 5150 7950 5550
+Wire Wire Line
+	7550 3300 8200 3300
+Wire Wire Line
+	7550 3400 8200 3400
 $EndSCHEMATC

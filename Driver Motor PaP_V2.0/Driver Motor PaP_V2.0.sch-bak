@@ -86,7 +86,7 @@ U 1 1 5EC4279A
 P 7950 2450
 F 0 "C4" H 8065 2496 50  0000 L CNN
 F 1 "100nF" H 8065 2405 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm" H 7950 2450 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 7950 2450 50  0001 C CNN
 F 3 "~" H 7950 2450 50  0001 C CNN
 	1    7950 2450
 	1    0    0    -1  
@@ -212,17 +212,6 @@ Wire Notes Line
 	1500 2150 700  2150
 Text Notes 1400 2100 2    50   Italic 0
 Alimentación Motor\n(8,2 v - 45 v)
-$Comp
-L Transistor_BJT:BC547 Q1
-U 1 1 5EC2EF50
-P 5750 1650
-F 0 "Q1" H 5941 1696 50  0000 L CNN
-F 1 "BC547" H 5941 1605 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5950 1575 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 5750 1650 50  0001 L CNN
-	1    5750 1650
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R3
 U 1 1 5EC341B0
@@ -1022,4 +1011,15 @@ Wire Wire Line
 	7550 3300 8200 3300
 Wire Wire Line
 	7550 3400 8200 3400
+$Comp
+L Transistor_BJT:BC547 Q1
+U 1 1 5ED0DF68
+P 5750 1650
+F 0 "Q1" H 5941 1696 50  0000 L CNN
+F 1 "BC547" H 5941 1605 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5950 1575 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 5750 1650 50  0001 L CNN
+	1    5750 1650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

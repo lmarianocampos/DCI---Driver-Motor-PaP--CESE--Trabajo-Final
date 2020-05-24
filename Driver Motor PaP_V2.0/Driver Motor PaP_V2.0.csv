@@ -1,0 +1,16 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"Q1";"TO-92_Inline";1;"BC547";;;
+2;"R2";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";1;"33k";;;
+3;"JP6,JP5,JP4,JP3,JP2,JP1";"PinHeader_1x02_P2.54mm_Vertical";6;"Jumper_2_Open";;;
+4;"U2,U3,U1";"DIP-8_W7.62mm_Socket";3;"LM358";;;
+5;"A1";"Pololu_Breakout-16_15.2x20.3mm";1;"Pololu_Breakout_DRV8825";;;
+6;"J6,J7";"Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical";2;"Conn_01x02";;;
+7;"J2,J1";"TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal";2;"Conn_01x02";;;
+8;"R3";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";1;"470";;;
+9;"R1";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";1;"220";;;
+10;"J8,J5";"PinHeader_1x01_P2.54mm_Vertical";2;"Conn_01x01";;;
+11;"J4,J3";"Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical";2;"Conn_01x04";;;
+12;"H4,H3,H2,H1";"MountingHole_4mm_Pad_Via";4;"MountingHole";;;
+13;"D1";"LED_D5.0mm";1;"LED_PWR";;;
+14;"C3,C2,C1";"C_Disc_D4.3mm_W1.9mm_P5.00mm";3;"100nF";;;
+15;"C4";"CP_Radial_D6.3mm_P2.50mm";1;"100nF";;;

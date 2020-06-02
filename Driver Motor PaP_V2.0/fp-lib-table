@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "Terminal Degson")(type KiCad)(uri "${KIPRJMOD}/Terminal Degson.pretty")(options "")(descr ""))
+  (lib (name "Driver Motor PaP_V2")(type KiCad)(uri "${KIPRJMOD}/Driver Motor PaP_V2.pretty")(options "")(descr ""))
 )

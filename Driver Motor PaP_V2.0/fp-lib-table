@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Terminal Degson")(type KiCad)(uri "${KIPRJMOD}/Terminal Degson.pretty")(options "")(descr ""))
+)
